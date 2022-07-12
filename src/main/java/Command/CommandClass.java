@@ -8,6 +8,7 @@ public class CommandClass {
     public static void main(String[] args) {
         Cuenta cuenta = new Cuenta(1, 200);
 
+        //Prueba comando
         DepositarImpl opDepositar = new DepositarImpl(cuenta, 100);
         RetirarImpl opRetirar = new RetirarImpl(cuenta, 50);
 
